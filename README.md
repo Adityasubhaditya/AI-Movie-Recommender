@@ -9,7 +9,6 @@ Welcome to the **AI-Powered Netflix Recommender** — a personalized, intelligen
 - [🚀 Features](#-features)
 - [🧠 How It Works](#-how-it-works)
 - [🔧 Tech Stack](#-tech-stack)
-- [💡 Customization](#-customization)
 - [📈 Future Additions](#-future-additions)
 
 
@@ -56,22 +55,6 @@ Welcome to the **AI-Powered Netflix Recommender** — a personalized, intelligen
 | HTTP           | requests                  |
 | CORS Support   | Flask-CORS                |
 
-
----
-
-## 💡 Customization
-
-- ✏️ **Change Model**  
-  You can switch from `claude-3-haiku` to any other [OpenRouter-supported model](https://openrouter.ai/models) by updating the `DEFAULT_MODEL` variable in `back.py`.
-
-- 🗂 **Modify System Prompt**  
-  Adjust the tone, formatting, or style of recommendations by editing the `SYSTEM_PROMPT` string inside `back.py`.
-
-- 🌍 **Set Custom Backend URL**  
-  Use the `.env` file to change `BACKEND_URL` when deploying across machines, servers, or cloud platforms.
-
-- 🎨 **Customize Streamlit Interface**  
-  The front-end is fully modular — modify the layout, add widgets, or change themes directly inside `front.py` using Streamlit’s rich UI tools.
 
 ---
 
